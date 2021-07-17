@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:compat="http://schemas.android.com/tools">
+    <!--<item
+        android:id="@+id/action_shuffle"
+        android:icon="@drawable/shuffle_icon"
+        android:orderInCategory="1"
+        app:showAsAction="always"
+        android:checked="true"
+        android:title="Shuffle"/>-->
+    <item
+        android:id="@+id/action_shuffle"
+        android:checkable="true"
+        android:checked="true"
+        android:orderInCategory="2"
+        android:visible="true"
+        android:title="@string/shuffle"/>
+
+    <item
+        android:id="@+id/action_sortBy"
+        android:orderInCategory="3"
+        android:checked="false"
+        android:title="@string/sortby_title"/>
+
+    <item
+        android:id="@+id/action_end"
+        android:checkable="true"
+        android:orderInCategory="3"
+        android:title="@string/endWhenQueueEnds"/>
+
+    <item android:id="@+id/action_settings"
+        android:title="@string/action_settings"
+        android:orderInCategory="4"/>
+</menu>

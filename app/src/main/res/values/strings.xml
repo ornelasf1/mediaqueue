@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">MediaQueue</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="sortby_title">Sort By: Title</string>
+    <string name="sortby_artist">Sort By: Artist</string>
+    <string name="shuffle">Shuffle</string>
+    <string name="endWhenQueueEnds">Close when queue gets empty</string>
+    <string name="action_settings">Settings</string>
+    <string name="descLineSeperator">Line seperator for songs</string>
+    <string name="queueHintMessage">Press and hold a track to add it to your Queue</string>
+
+    <string name="app_version_number">1.0</string>
+    <string name="menu_settings">Settings</string>
+
+    <string name="cd_repeat">Repeat one or all</string>
+    <string name="cd_previous">Skip backwards</string>
+    <string name="cd_play">Play and pause</string>
+    <string name="cd_next">Skip forwards</string>
+</resources>

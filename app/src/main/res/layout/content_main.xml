@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/mainLayout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@color/colorListViewGray"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:showIn="@layout/app_bar_main"
+    tools:context="io.github.ornelasf1.mediaqueue.MainActivity">
+
+    <ListView
+        android:id="@+id/song_list"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:divider="@drawable/song_seperator_line"
+        android:dividerHeight="2dp"
+        android:overScrollHeader="@color/background_grey"
+        android:longClickable="true"
+        android:paddingBottom="@dimen/media_controller_height"
+        android:scrollbars="none"
+        android:overScrollMode="never"/>
+
+    <quickscroll.QuickScroll
+        android:id="@+id/quickScroll"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="@dimen/media_controller_height"/>
+
+
+</RelativeLayout>
